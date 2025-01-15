@@ -1,12 +1,15 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router';
+
+import { Button } from '../../../../dist/ui/index';
 </script>
 
 <template>
   <header>
+    <Button />
     <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
+      <RouterLink to="/"> Home </RouterLink>
+      <RouterLink to="/about"> About </RouterLink>
     </nav>
   </header>
   <RouterView />

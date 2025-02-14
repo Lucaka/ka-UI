@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router';
 
-import { Button } from '../../../../dist/ui/index';
+import { Button } from '../../../../dist/libs/ui/index';
 </script>
 
 <template>

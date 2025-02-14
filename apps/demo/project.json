@@ -5,4 +5,5 @@
   "sourceRoot": "apps/demo/src",
   "// targets": "to see all targets run: nx show project demo --web",
   "targets": {}
+  // "implicitDependencies": ["ui"]
 }
